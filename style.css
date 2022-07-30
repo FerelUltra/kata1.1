@@ -6,28 +6,23 @@
 * {
     padding: 0;
     margin: 0;
-    color: #2A4A5C;
     font-family: Barlow;
     box-sizing: border-box;
 }
 
 button {
-    width: 325px;
     cursor: pointer;
 }
 
-label {
-    display: block;
-     color: #AFAFAF
-}
-input{
+input {
     border: 0;
     width: 100%;
     font-size: 24px;
-    margin-top: 10px;
     color: black;
     outline: 0;
+    font-size: 16px;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -47,33 +42,41 @@ input{
     height: 1000px;
 }
 
-.into__logo{
+.into__logo {
     width: 150px;
     margin: 40px;
 }
 
 .into__form {
-    width: 580px;
+    width: 680px;
     height: 1000px;
-    padding: 100px 50px;
+    padding: 110px 70px;
 }
 
-.into__heading{
+.into__heading1 {
     font-weight: 400;
+    font-size: 28px;
+    color: #2A4A5C;
+}
+
+.into__heading4 {
+    font-weight: 400;
+    margin-top: 20px;
+    color: #96A5B1;
 }
 
 .into__socials {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .into__social {
-    height: 60px;
-    font-size: 24px;
+    height: 45px;
     color: white;
     display: flex;
     align-items: center;
+    width: 45%;
 }
 
 .into__social_fb {
@@ -82,6 +85,11 @@ input{
 
 .into__social_li {
     background-color: #0076B6;
+}
+
+.into__socialIcon {
+    margin-right: 20px;
+    margin-left: 20px
 }
 
 .into__or {
@@ -106,50 +114,89 @@ input{
 
 .into__phone,
 .into__email {
-    width: 325px;
+    width: 250px;
     border: 1px solid #EEEEEE;
-    padding: 10px;
+    padding: 5px;
     height: 60px;
-    font-size: 24px;
 }
-.into__email{
+
+.into__email {
     border-left-color: #3698FB;
 }
-.into__type-h2{
-    margin-top: 80px;
+
+#email,
+#phone {
+    margin-top: 5px;
 }
-.into__type-h4{
+
+.into__dataLabel {
+    color: #96A5B1;
+}
+
+.into__type-h2 {
+    margin-top: 50px;
+    color: #2A4A5C;
+    font-weight: 400;
+}
+
+.into__type-h4 {
     margin-top: 10px;
+    color: #2A4A5C;
+    font-weight: 400;
 }
-.into__radioButtons{
+
+.into__radioButtons {
     display: flex;
     margin-top: 50px;
 }
-.into__radioButton{
+
+.into__radioButton {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.into__radioButton + .into__radioButton{
+
+.into__radioButton + .into__radioButton {
     margin-left: 50px;
 }
-.into__radioButton input{
+
+.into__radioButton input {
     margin: 0;
 }
-.into__description{
+
+.into__radioLabel {
+    color: black;
+    margin-left: 5px;
+}
+
+.into__info {
+    width: 12px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.into__description {
     margin-top: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    padding: 10px;
+    color: #96A5B1;
 }
-.into__agreement{
+
+.into__agreement {
     margin-top: 50px;
+    color: #96A5B1;
 }
-.into__create{
+
+.into__create {
     background-color: #3698FB;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    height: 60px;
+    height: 50px;
+    width: 250px;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 50px;
 }
