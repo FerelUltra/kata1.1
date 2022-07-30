@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("img/Barlow-Regular.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #2A4A5C;
+    font-family: Barlow;
+    box-sizing: border-box;
+}
+
+button {
+    width: 325px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+     color: #AFAFAF
+}
+input{
+    border: 0;
+    width: 100%;
+    font-size: 24px;
+    margin-top: 10px;
+    color: black;
+    outline: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.into {
+    width: 1440px;
+    height: 1000px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.into__bg {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    width: 760px;
+    height: 1000px;
+}
+
+.into__logo{
+    width: 150px;
+    margin: 40px;
+}
+
+.into__form {
+    width: 580px;
+    height: 1000px;
+    padding: 100px 50px;
+}
+
+.into__heading{
+    font-weight: 400;
+}
+
+.into__socials {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.into__social {
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.into__social_fb {
+    background-color: #255A9B;
+}
+
+.into__social_li {
+    background-color: #0076B6;
+}
+
+.into__or {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.into__line {
+    width: 150px;
+    border: 1px solid #EEEEEE;
+    height: 0;
+    margin: 10px;
+}
+
+.into__data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.into__phone,
+.into__email {
+    width: 325px;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    height: 60px;
+    font-size: 24px;
+}
+.into__email{
+    border-left-color: #3698FB;
+}
+.into__type-h2{
+    margin-top: 80px;
+}
+.into__type-h4{
+    margin-top: 10px;
+}
+.into__radioButtons{
+    display: flex;
+    margin-top: 50px;
+}
+.into__radioButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.into__radioButton + .into__radioButton{
+    margin-left: 50px;
+}
+.into__radioButton input{
+    margin: 0;
+}
+.into__description{
+    margin-top: 25px;
+}
+.into__agreement{
+    margin-top: 50px;
+}
+.into__create{
+    background-color: #3698FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 50px;
+}
